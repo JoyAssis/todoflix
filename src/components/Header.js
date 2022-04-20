@@ -30,6 +30,11 @@ color: white;
 text-align: center;
 margin-right: -300px;
 margin-left: 100px;
+cursor: pointer;
+&:hover {
+  background-color: #9d0208;
+}
+}
 `
 const Busca = styled.input`
 background-color: #2C2C2C;
@@ -50,6 +55,13 @@ margin-left: -350px;
  li{
     display: inline;
     margin: 0 0 0 15px;
+ }
+ li {
+  cursor: pointer;
+  &:hover {
+    color: #9d0208;
+  }
+  }
  }
 `
 
@@ -73,7 +85,7 @@ class Header extends Component {
             <Busca type="text" 
             placeholder='Pesquisar'/>
             <Image src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png" alt=""/>
-            <Image src="https://cdn-icons.flaticon.com/png/512/4889/premium/4889279.png?token=exp=1650234018~hmac=1e5ee519fcff00c0590abd60ece41c9c" alt=""/>
+            <Image src="" alt="seta"/>
         </Container>
       )
     }
