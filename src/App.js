@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
+import Movies from './components/Movies';
 
 class Home extends Component {
   render() {
@@ -9,6 +10,7 @@ class Home extends Component {
   
         <Header />
         <Main />
+        <Movies />
       </div>
     )
   }
