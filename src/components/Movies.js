@@ -3,8 +3,10 @@ import styled from 'styled-components'
 
 const Container = styled.div`
 background-color: black;
+border: solid yellow;
 color: white;
 display: flex;
+width: 99vw;
  img{
      width: 80%;
  }

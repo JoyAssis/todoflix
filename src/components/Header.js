@@ -8,17 +8,14 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 height: 7vh;
-width: 100vw;
 `
 const Title = styled.h1`
 color: red;
 font: Bebas Neue;
-font-size: 33px;
-margin-left: -50px; 
+font-size: 33px; 
 `
 const Image = styled.img`
 width: 2vw;
-margin-right: -70px
 `
 const Btn = styled.button`
 background-color: red;
@@ -28,7 +25,7 @@ border: none;
 border-radius: 6px;
 color: white; 
 text-align: center;
-margin-right: -80px;
+margin-right: -40px;
 cursor: pointer;
 &:hover {
   border: solid;
@@ -41,14 +38,10 @@ height: 5vh;
 width: 20vw;
 border: none;
 border-radius: 6px;
-color: white; 
-margin-right: -200px
-margin-left: 200px;
+color: white;
 `
 const Option = styled.p`
 color: white;
-margin-left: 0px;
-
   cursor: pointer;
   &:hover {
     color: #9d0208;
@@ -57,7 +50,6 @@ margin-left: 0px;
 const Cat = styled.p`
  width: 18vw;
  margin-top: 162px;
- margin-left: 0px;
  color: white;
  cursor: pointer;
   &:hover {
@@ -65,7 +57,7 @@ const Cat = styled.p`
    }
 `
 const Catmenu = styled.div`
-background-color: black;
+background-color: #252422;
  width: 18vw;
  margin-left: 10px;
  position: relative;

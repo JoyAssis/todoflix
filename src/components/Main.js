@@ -5,7 +5,6 @@ import styled from 'styled-components';
 const Container = styled.div`
 background-color: black;
 color: white;
-width: 100vw;
 display: flex;
 justify-content: flex-start;
 `
@@ -23,7 +22,7 @@ const Destaque = styled.div`
  margin-left: -50px;
 `
 const Title = styled.h1`
-width: 80vw;
+
 `
 const Content = styled.p`
 `

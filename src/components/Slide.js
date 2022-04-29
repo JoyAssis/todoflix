@@ -6,7 +6,13 @@ const Container = styled.div`
 color: white;
 background-color: black;
 margin-top:-20px;
+ img{
+     width: 20vw;
+ }
 `
+const carouseConfig ={
+
+}
 
 export default class App extends React.Component{
     state ={
@@ -49,7 +55,7 @@ export default class App extends React.Component{
     return (
       <Container>
         <h2> Destaques </h2>        
-        <Carousel slidesToShow="4">            
+        <Carousel slidesToShow="4" >            
             {this.state.filmes.map((item)=>
             <div>
                 <img src={item.poster} />

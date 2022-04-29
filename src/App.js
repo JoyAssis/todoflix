@@ -4,6 +4,8 @@ import Main from './components/Main';
 import Movies from './components/Movies';
 import Slider from './components/Slide';
 
+
+
 class Home extends Component {
   render() {
     return (
