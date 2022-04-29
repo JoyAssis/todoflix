@@ -29,19 +29,19 @@ export default class Movies extends React.Component{
         {
             id:3,
             title:"Spider-man",
-            resume:"",
+            resume:"Após ser picado por uma aranha radioativa, o garoto Miles Morales logo aprende a lançar teias com seus parceiros de um universo alternativo.",
             poster:"https://lh3.googleusercontent.com/tBs2jgzjIdrMJEioDdTFox_lYXMXDXCdj9Tm6XGv7f7fMl3OkBtOgo2-KNTDGQ6439-_5dM1Hgtm9eRrreFX1qv1EfgKAiYhmEMWQDoBmoCpnXNUluebsGVCMURKGy_n5oH0r50QxP3ArmlcYcDDG86MlEWzaehYJZW813Sx5K84bOKq-EZa0t9-ATJVIr6AeXFHvXntocalugZKK7zTn9HOOHBwnZqWjRwePrsfGuaq7FT_OQHtHrXOGQIaOwHEKwIg2ssc_1jcRFOZyo27GTHFFpDtnZJp5oFXOIUiWgeDYf769oh-wCIxI4JEzq35WdPr6nBQxT67o8apXmMf6Gqsv9BqCBowdIO_y3kJrudKCrSgJ5RBjvYLgrzEuhHwf6H5YU1AWCVVjq6p1CLTqrgBDbfhtF1Hgc-_UwI2jl-mO_MJLfEuF2HxacNqk7X04ISq_nFOYbSlaX2n7WI6b7KZcX2IT6S-FhvBqO4rFD49jFm8erFltFGhczQ_NM-omyqjjRlJb7NTh9vnoUHt8k6_aRSk2uDFYPjpKlas8lQlNQR_awUKWbDWWPUAddS1VlWqQgiO4JpfObkMt66h17rbBi4aqt2fAhLBvM8n0rlrJBodzLsouXCnQLHamo33aG6pzdHOxeT8pEjuio4d_NsGQ7ho3mNs9Zt9ZVgo_gJVTq8SnL5DPeAKT2O8ByAHeKiXZFsyj_Doh3IixHrNSYIQrqpR-0U9WO6FHptZ5hanK8OvFEXK4z4N4DLGT-l-byX9cD4H0Tge9m4xNCN8W48bQ22L0Djv65LXrSE2feegM2SsvAr3Ujv-x9R7hQ=w520-h296-no?authuser=0"
         },
         {
             id:4,
             title:"Que Horas Ela Volta",
-            resume:"",
+            resume:"Val é a fiel empregada domestica de uma família rica. Mas a chegada de sua filha gera tensão na casa e faz com que ela comece a questionar esse papel.",
             poster:"https://lh3.googleusercontent.com/0SiBypj4Y27Os5c012E-D7rN1wqOg8bbYvhlXYSd-469HCJJ7nERtWJ9qFMkrQoGRgnOQnX4whIyiJr1AUCyDde6g5W6_yqPN8XmjSpC7V0KcqHXPDGoYTYq2VEsHlVGwUqyIEAgyPc-yogJvaZu2-sL6fzQhm-vgzdr7kfR_PxYkV2gUEJkqMBSQ_9SbFMvx_8VmSnJflAD3RYUIyj63tb2hiCfNuPkE8ca2-wYOQh8oWmbUqLPlILrt9IshxtjZIhhmy0WhQdnoxqNVwHaxg82qfDo6zBYnhgm6qcGKfy5SsnYDA23S_KdD1gpQ4XRrwcVDBk3xq8YQHiHBBDhecIZLcztvcUQTsMZ841YL4FVGjS7KkcwLtwJMLQdjjMVwns81KOeDQNsvz9t-uKFzTi0AuP2KtBLZzVIfaQWWoOgsP1CIhOG_QXbhGTjDEAJ3OKl9i4wQE6jrm1ohD_l206FcoeigdF_u-8koGfY8lLpEpATu--MzkroPHS3eTHxljR4Put3qEHyX5Al9qKIS3cM1YMIlK8CGMNnXL7j3rZzUsxnvErwgpyFeAVFUb1CgPF2FDETaA_lDq7c0W-gRDcPWDPc7KrPc54nwr0O0dhi3jY2bP79Cai3piRY3SqiLS8p38RyLBFEnaXtHmHOR1awgtei81I_dVKdwCl5yNAsD-u24Jwxg1tayaqLFPN_6ol-sZKm1XiyuLrF9iepba0u61A-RJ8UBjNv7s5eYx2Qt9QEUE9ImH6vqCiG3Ko-NMyVMeGIRYumSvB-nS9yMCPb7aw4bjuvz8xR5Uj0m4emz3WGQTB7BUhPKcdz3w=w520-h296-no?authuser=0"
         },
         {
             id:5,
             title:"Um Sonho De Liberdade",
-            resume:"",
+            resume:"Condenado pelo assassinato da esposa e do amante dela, um banqueiro se apega à esperança e à amizade com um detento chamado Red para sobreviver à prisão.",
             poster:"https://lh3.googleusercontent.com/dSrattFyz8iGhGcJPqabGQadW1703jenq4f48xwYBzpHfhIIdmjguovj0ScqdZwCEUObIIpF2CmXmT9bL9LO3QAU6PBT49IV6WXKVIEuen79Kg0Mtc4yVPzqN6njyLdQMAw-WsoaM2Q0mNis_Zc33wbZSlr0W22dFDMUGx3JLF1BSC8BxxhE05StENphIP5Y6az6B0WQelI6k5NSCvfCOlqgZkG7Pnq2dFLr-FDeL1Inzs9KEQY6v_ry8Da8K3GQ0GfeFbxEjmkyruc8_YhoBVub769yWD23KOcPgMNmj12fiHXku0MPOpcL3tVnC6gb_GZsXg4o4HgYIbUrwucbp5Dhjbj5NArTjHUtAcI2Y2PGF7oJdd3Eoe6IVGeZGJmi-jelhsdSn5jweaEPpkFjgCFZwH3raxpcbdLxPMwfUW9tipZWpqYuL6wfbhTUJQhB7i5iFtEFXh36u5qpF0ZU0r9oVlNqbn580APaGpjtQGDNQdu4aVLyPATjlbQe6rTdxHxZ8O-929cGsncUaFd4KdJrPA0jkL-Q4DU8YbOzK3RpjmduYwlKSWwdkulS6J_l3foG38e4EJLzTfq2-NRBMyw5OmlM_oMowuZz9aKjJLfr3WOknMagrInE2dX_pPPhNQXA38aDSbAo75lnCaS7942-_vsDPqOdjMhkxjaoRmdERs4G-ecsvUjkv-CTqtCm0NwHQ6I_H_e1IAYNyvWD0Yj5zoUCuOuAa_XT8M3JSsE0REmkI9UcuNPpjXoUVs8U2KyslO3cu2IXqLaHiTEzOSlrLmn4qCz_7NMrRRu46Eqr_srAbJh29NOQJnnlXw=w520-h296-no?authuser=0"
         }
     ]

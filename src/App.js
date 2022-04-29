@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
 import Movies from './components/Movies';
+import Slider from './components/Slide';
 
 class Home extends Component {
   render() {
@@ -10,7 +11,7 @@ class Home extends Component {
   
         <Header />
         <Main />
-        <Movies />
+        <Slider />
       </div>
     )
   }
