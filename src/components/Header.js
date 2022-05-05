@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Modal from "react-modal";
 import ReactStars from "react-rating";
+import {Link} from 'react-router-dom';
+
+import Seta from "./Imagens/Group 3.png"
+import Icon from "./Imagens/Group 32.png"
 
 const Container = styled.div`
 background-color: black;
@@ -21,7 +25,6 @@ font-size: 33px;
 `
 const Image = styled.img`
 width: 2vw;
-border: solid white;
 margin-left: -80px;
  :hover {
    cursor:pointer;
@@ -34,7 +37,6 @@ margin-left: -80px;
 `
 const ImageSeta = styled.img`
 width: 2vw;
-border: solid white;
 margin-left: -80px;
  :hover {
    cursor:pointer;
@@ -61,9 +63,7 @@ cursor: pointer;
  }
  
  @media (max-width: 480px) {
-  width: 4rem;
-  height: 1.1rem;
-  font-size: 0.5rem;
+  display: none;
  }
 `
 const Busca = styled.input`
@@ -77,14 +77,14 @@ color: white;
  @media (max-width: 480px){
    font-size: 0.5rem;
    height: 1.1rem;
-   margin-left: 1rem;
+   margin-right: 5rem;
  }
 `
 const Option = styled.p`
 color: white;
   cursor: pointer;
-  &:hover {
-    color: #9d0208;
+    &:hover {
+      color: #9d0208;
    }
 `
 const Cat = styled.button`
@@ -205,12 +205,12 @@ class Header extends Component {
       return(
         <Container>
             <Title>TODOFLIX</Title>
-             <Option>Inicio</Option>           
+             <Option><Link to="/">Inicio</Link></Option>           
             <div>
               <Cat onClick={this.handleList}>Categorias <span>▼</span></Cat>
               {this.state.listCat && (
                 <Catmenu>           
-                <p>Todos</p>
+                <Link to="/Todos">Todos</Link>
                 <p>Já Vistos</p>
                 <p>Adicionados</p>
                 <p>Favoritos</p>
@@ -239,14 +239,14 @@ class Header extends Component {
                  <ReactStars count={5} size={35} activeColor="#ffd700" />                 
                 </Form>
                 <p>Imagem de capa</p>
-                <img src="https://photos.google.com/album/AF1QipMXnjhGWeIInaCYqdubxc2ELntxfPH7p2_s1wM/photo/AF1QipNC7jv0nstcmdYjbDr1zv8usGqIB8IgzhldEYM" />
+                <img src="" />
                 <button>Selecionar imagem</button>                    
 
               </ModalBox>
             </Modal>
             <Busca type="text" name="lupa" placeholder="Pesquisar" />
-            <Image src="https://lh3.googleusercontent.com/YLaoMcW1Z8AHnEjsrlSGIMdEy545ZBERpVsl1k6Eywkmu2Qzem3_GxkZ86iiN7z6qfuqosiu-I8BuAF_4CBia2fRcHJOvMo70hrX4Zg2NGood6E3QXLIJFQbDW4L1-tH9ki9f19fLjyGqV1kt0EHoL80nj3tupxTi5XdKIEtb00NcJLExMZtueQzJxcvvr5YAi2cgbHGV2dmI-axvmfmzoTAubcwo1nDxvYm8KAuabqLpVXqeV6D9fi6HwDYtV9vk82i7l1jv80I16o2wETujHQ2KfvsBtt0x5a3exBn56IPAQgsIKMH3-nOVw1kDynl-Amt4u5Xfsshrwx64cZIoJg-trodKB04kvUAc1dX0tabgSOdDqI38KwSjgT5_ZnHesJspGfDogW3LhipZ_wow7mh6eeoDB-SoMrDd9_lN9OTwun8nj2oATrPqIDl3evAdajqtIECMxzRk2hMwzj9gdtWlWXoqYwtIN1tGPC5cppocxlIrs1fuskaeETu33OKYW4bICj_mwnqEu0KSibSRgOH1hj0dgQY16T3oGEE6xAy9pPqxpeurZgqFoNncgVUtjaetBYVZdr9xnwmZcI1_i8H0RJw-OoW9o1J7YEAINR7GRFyAVaX2YRjXdIITDAX3ogxe-yG37fPri8SMOx-2cpgWs-v3cBEhtKAUJSu-t6R_9LXcZm94xzt_KKT9ijdIKZO6NuFc0qKdKQZNGHjPjKScK2brsFrogf1fU9plY6TOJ9LzFWYMj2Yl56iOPRr9nLBfI5HEaI0O4z6HF-KP44MlsDErrgcXdyf19qDunC0codhUi4-UxesQw-TKQ=s32-no?authuser=0" alt=""/>
-            <ImageSeta src="https://lh3.googleusercontent.com/PduDXbWAH81KoYSAYSRQXRa0uBWKIK3BRPZ6dp6Vg0RmxVlvNsAwBPXz2WIDQT1_ubIi22Woss5KNjUf_TuDJwCPVaJcUIPMSa1Gydfov4SZr10RvguhXMPlSXDgbU5SkqUA82nKDBAjWP0SHvzzZ1xTJpxRbszIDAsrK3prL4laF1MoqTKMi-0RhFZSxfVYLeIcAM8yPCGHgZYGRsr5OZiouX6zz0kVk01eGkkct3G7AMYRBfg_WPWPJru_t5t7rgeOyAPvW41ZxhWPnNVtU59hfbsXNieL7X8Wf3fByopORmOvg6ggwMFPeLp2amL34qGymsWKuaTZsMBHnV9iKYEM-47T_4ZiKxgFaP7jVcOosXEpm-87qGRCrpZd_rpte17Igxnej3Szp_iUWJl1dGZyBvRBPxj9hZSO1cEY4Nhvjr2vT5XvgXiR3xCIQ_ewp5F5YsBhN87w6RxJi8S1PMqp-pLXpfNwtwFUye3h0kL7Gg_38spHrIKKCpE8iSJ7RqMamK4fVJjLpyDlzb6G2dhI3QRWjq-UTbxmT-5YWTtp8uFWL2RrbZI-4AwG2Kp6hUBPKgoIBSxVnkWF6vhB80ATO33tEqcbAthlcj4UV4vSC3jZd7UCN9xnbqPwrWpjv6zTQiMJfiLptPp3CZpTCQywPWwnxHwHCyezVSLKMCPqIVKJ3CAjbwJpsHyvDwNDOvo_LWdcyDraJVuaFi6zty6hsP1uQk8m0MEICQQkQS0LOQzc3z5ynni3t2VzDpm3C823fyI9whvQve_uG1ge1wqgU12RZrEAdF9N7nMrvH_dlqsUxyTdoOpMi_iE4g=s48-no?authuser=0" alt="seta"/>
+            <Image src={Icon} alt=""/>
+            <ImageSeta src={Seta} alt="seta"/>
         </Container>
       )
     }
